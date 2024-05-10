@@ -13,6 +13,7 @@ package aws_signing_helper
 */
 
 // #include <stdio.h>
+// #include <stdlib.h>
 import "C"
 import (
 	"crypto"
