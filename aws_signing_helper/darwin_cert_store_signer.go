@@ -10,10 +10,8 @@ package aws_signing_helper
 #cgo LDFLAGS: -framework CoreFoundation -framework Security
 #include <CoreFoundation/CoreFoundation.h>
 #include <Security/Security.h>
+#include <stdio.h>
 */
-
-// #include <stdio.h>
-// #include <stdlib.h>
 import "C"
 import (
 	"crypto"
